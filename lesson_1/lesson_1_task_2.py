@@ -12,6 +12,7 @@ def sum_of_digits(number):
         number //= 10
     return sum_digits
 
+
 cube_numbers = []
 for number in range(1, 1001, 2):
     cube_numbers.append(number ** 3)
